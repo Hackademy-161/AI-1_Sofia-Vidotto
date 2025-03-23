@@ -1,10 +1,38 @@
 body {
     background: #080808;
+    font-family: "Poppins";
 }
 
 /*Typography */
+a {
+    text-decoration: none;
+}
+
 .text-red {
     color: #FE1F27
+}
+
+/* Backgrounds */
+.bg-dark-custom {
+    background-color: #101010;
+}
+
+.bg-dark-auth {
+    background-color: #1A1A1A;
+}
+
+.bg-register {
+    background-image: url(/public/images/Subtract.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-login {
+    background-image: url(/public/images/Profile\ Pic\ 1.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: left;
+
 }
 
 
@@ -26,6 +54,18 @@ body {
     border-color: #FE1F27
 }
 
+.dropdown-menu {
+    background-color: transparent !important;
+}
+
+a.dropdown-item {
+    transition: all 1s;
+}
+
+a.dropdown-item:hover {
+    background-color: #FE1F27;
+}
+
 /* Sidebar */
 .sidebar-fixed {
     position: fixed;
@@ -35,10 +75,6 @@ body {
     width: 100px;
     z-index: 1030;
     overflow-y: auto;
-}
-
-.bg-dark-custom {
-    background-color: #101010;
 }
 
 .sidebar-fixed .nav-link {
@@ -68,4 +104,124 @@ body {
     color: #EE10B0;
     text-transform: uppercase;
 
+}
+
+
+/* Card */
+/**/
+/*primo set*/
+.game-card {
+    background-color: #202020;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.game-card img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.game-card .date {
+    color: red;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.game-card h5 {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.game-card .details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+/**/
+/*secondo set*/
+.achievement-card {
+    background-color: #202020;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 320px;
+    text-align: center;
+}
+
+.achievement-card img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.achievement-card .reward {
+    color: gold;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.achievement-card h5 {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.achievement-card .progress-bar {
+    background-color: red;
+}
+
+.achievement-card .progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+/**/
+/*tabella*/
+/* Sezione Rows Table */
+
+.grid-header {
+    color: white;
+    font-weight: bold;
+    background-color: #1f1f1f;
+    border: 15px solid #181818;
+    border-bottom: none;
+}
+
+.grid-row {
+    color: white;
+    background-color: #1f1f1f;
+    padding: 15px;
+    border: 15px solid #181818;
+    border-top: none;
+}
+
+.heart-icon {
+    color: #fc4eca;
+    cursor: pointer;
+}
+
+.btn-outline-light {
+    border-color: #fc4eca;
+    color: #fc4eca;
+}
+
+.btn-outline-light:hover {
+    background-color: #fc4eca;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+
+    .grid-header,
+    .grid-row {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
 }

@@ -32,14 +32,17 @@
                     <img src="https://i.pinimg.com/1200x/85/5b/2b/855b2b606c64c961da2922a240a43236.jpg" alt="User" width="30" height="30" class="rounded-circle">
 
                 </a>
-                <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-                    <li><a class="dropdown-item" href="#">Profile</a></li>
-                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                <ul class="dropdown-menu  text-small ">
+                    <li><a class="dropdown-item text-white-50" href="#">Profile</a></li>
+                    <li><a class="dropdown-item text-white-50" href="#">Settings</a></li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
-                    <li class="d-flex justify-content-center">
-
+                    <li class="d-flex justify-content-start">
+                        <form action="{{ route('logout') }}" method="POST">
+                            @csrf
+                            <button type="submit" class="btn botn-outline-danger ms-2">Logout</button>
+                        </form>
                     </li>
                 </ul>
             </div>
@@ -49,7 +52,7 @@
 
     <!-- Sidebar fissa per Desktop -->
     <div class="sidebar-fixed d-none d-md-block bg-dark-custom text-white p-3">
-        <a href="" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+        <a href="" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none ps-2">
             <img src="/images/logo.png" alt="Logo" class="py-5">
         </a>
         <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
@@ -75,14 +78,17 @@
                 <img src="https://i.pinimg.com/1200x/85/5b/2b/855b2b606c64c961da2922a240a43236.jpg" alt="User" width="30" height="30" class="rounded-circle">
 
             </a>
-            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-                <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><a class="dropdown-item" href="#">Settings</a></li>
+            <ul class="dropdown-menu  text-small ">
+                <li><a class="dropdown-item text-white-50" href="#">Profile</a></li>
+                <li><a class="dropdown-item text-white-50" href="#">Settings</a></li>
                 <li>
                     <hr class="dropdown-divider">
                 </li>
-                <li class="d-flex justify-content-center">
-
+                <li class="d-flex justify-content-start">
+                    <form action="{{ route('logout') }}" method="POST">
+                        @csrf
+                        <button type="submit" class="btn btn-outline-danger ms-2">Logout</button>
+                    </form>
                 </li>
             </ul>
         </div>
