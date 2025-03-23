@@ -203,22 +203,21 @@ a.dropdown-item:hover {
 }
 
 .heart-icon {
-    color: #fc4eca;
+    color: #FE1F27;
     cursor: pointer;
 }
 
 .btn-outline-light {
-    border-color: #fc4eca;
-    color: #fc4eca;
+    border-color: #FE1F27;
+    color: #FE1F27;
 }
 
 .btn-outline-light:hover {
-    background-color: #fc4eca;
+    background-color: #FE1F27;
     color: #fff;
 }
 
 @media (max-width: 767px) {
-
     .grid-header,
     .grid-row {
         font-size: 0.9rem;

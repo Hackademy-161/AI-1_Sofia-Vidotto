@@ -164,6 +164,91 @@
 
                     </div>
                     
+
+                    <div class="container py-5">
+    <h2 class="text-white pb-3">Accept the Challenge</h2>
+    
+    <!-- Header della grid -->
+    <div class="row grid-header align-items-center p-3">
+        <!-- Puoi regolare le colonne in base allo spazio che vuoi assegnare a ciascuna -->
+        <div class="col-md-3 col-lg-3 col-6">Challenge</div>
+        <div class="col-md-2 col-lg-2 col-3">Game Mode</div>
+        <div class="col-md-2 col-lg-2 col-3">Prize Pool</div>
+        <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">Entry</div>
+        <div class="col-md-2 col-lg-2 col-3">Time Left</div>
+        <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Rewards</div>
+    </div>
+
+    <!-- Riga 1: Eat Bullets -->
+    <div class="row grid-row align-items-center">
+        <div class="col-md-3 col-lg-3 col-6">Eat Bullets</div>
+        <div class="col-md-2 col-lg-2 col-3">1 x 1</div>
+        <div class="col-md-2 col-lg-2 col-3">1000</div>
+        <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
+        <div class="col-md-2 col-lg-2 col-3">00h:15m</div>
+        <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+    </div>
+
+    <!-- Riga 2: Evillious Energy -->
+    <div class="row grid-row align-items-center">
+        <div class="col-md-3 col-lg-3 col-6">Evillious Energy</div>
+        <div class="col-md-2 col-lg-2 col-3">1 x 1</div>
+        <div class="col-md-2 col-lg-2 col-3">1000</div>
+        <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
+        <div class="col-md-2 col-lg-2 col-3">00h:15m</div>
+        <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+    </div>
+
+    <!-- Riga 3: Monstrous Michel -->
+    <div class="row grid-row align-items-center">
+        <div class="col-md-3 col-lg-3 col-6">Monstrous Michel</div>
+        <div class="col-md-2 col-lg-2 col-3">1 x 1</div>
+        <div class="col-md-2 col-lg-2 col-3">1000</div>
+        <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
+        <div class="col-md-2 col-lg-2 col-3">23h:15m</div>
+        <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+    </div>
+
+    <!-- Riga 4: Duke of Doom -->
+    <div class="row grid-row align-items-center">
+        <div class="col-md-3 col-lg-3 col-6">Duke of Doom</div>
+        <div class="col-md-2 col-lg-2 col-3">1 x 1</div>
+        <div class="col-md-2 col-lg-2 col-3">1000</div>
+        <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
+        <div class="col-md-2 col-lg-2 col-3">00h:15m</div>
+        <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+    </div>
+
+    <!-- Riga 5: Gabriel Groomer -->
+    <div class="row grid-row align-items-center">
+        <div class="col-md-3 col-lg-3 col-6">Gabriel Groomer</div>
+        <div class="col-md-2 col-lg-2 col-3">1 x 1</div>
+        <div class="col-md-2 col-lg-2 col-3">1000</div>
+        <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
+        <div class="col-md-2 col-lg-2 col-3">00h:15m</div>
+        <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+    </div>
+
+    <!-- Riga 6: Annihilator -->
+    <div class="row grid-row align-items-center">
+        <div class="col-md-3 col-lg-3 col-6">Annihilator</div>
+        <div class="col-md-2 col-lg-2 col-3">1 x 1</div>
+        <div class="col-md-2 col-lg-2 col-3">1000</div>
+        <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
+        <div class="col-md-2 col-lg-2 col-3">00h:15m</div>
+        <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+    </div>
+
+    <!-- Riga 7: Veteran of Death -->
+    <div class="row grid-row align-items-center">
+        <div class="col-md-3 col-lg-3 col-6">Veteran of Death</div>
+        <div class="col-md-2 col-lg-2 col-3">1 x 1</div>
+        <div class="col-md-2 col-lg-2 col-3">1000</div>
+        <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
+        <div class="col-md-2 col-lg-2 col-3">00h:15m</div>
+        <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+    </div>
+</div>
                 </div>
 
 
