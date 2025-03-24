@@ -19,4 +19,12 @@ class PublicController extends Controller implements HasMiddleware
     {
         return view('index');
     }
+
+    public function showVerificationNotice(Request $request)
+    {
+        if ($request->user()->hasVerifiedEmail()) {
+            return redirect('/'); // Oppure puoi reindirizzare a una dashboard
+        }
+        return view('auth.verify-email');
+    }
 }

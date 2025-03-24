@@ -7,9 +7,9 @@
                     <h3 class="text-center">Email Verification</h3>
                     <p class="text-center text-white-50">Thank you for signing up! Please verify your email address to complete your registration.</p>
                     <ul>
-                        <li><i class="bi bi-check-lg text-blue fs-4 fw-bold"></i> Check your inbox for a verification email from us.</li>
-                        <li><i class="bi bi-check-lg text-blue fs-4 fw-bold"></i> Click on the verification link provided in the email.</li>
-                        <li><i class="bi bi-check-lg text-blue fs-4 fw-bold"></i> If you haven't received the email, check your spam folder or request a new one below.</li>
+                        <li><i class="bi bi-check-lg fs-4 fw-bold small"></i> Check your inbox for a verification email from us.</li>
+                        <li><i class="bi bi-check-lg fs-4 fw-bold small"></i> Click on the verification link provided in the email.</li>
+                        <li><i class="bi bi-check-lg fs-4 fw-bold small"></i> If you haven't received the email, check your spam folder or request a new one below.</li>
                     </ul>
                     <p class="small">If you need further assistance, please contact our support team.</p>
 

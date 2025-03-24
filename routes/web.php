@@ -12,18 +12,9 @@ Route::get('/auth/github', [AuthController::class, 'redirectToGithub'])->name('g
 Route::get('/auth/github/callback', [AuthController::class, 'handleGithubCallback']);
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
-
-
-Route::get('/email/verify', function () {
+Route::get('/email/verify', function (Request $request) {
+    if ($request->user()->hasVerifiedEmail()) {
+        return redirect('/'); // Reindirizza alla home o a un'altra pagina
+    }
     return view('auth.verify-email');
 })->middleware('auth')->name('verification.notice');
-
-Route::get('/email/verify/{id}/{hash}', function (EmailVerificationRequest $request) {
-    $request->fulfill();
-    return redirect('/'); 
-})->middleware(['auth', 'signed'])->name('verification.verify');
-
-Route::post('/email/verification-notification', function (Request $request) {
-    $request->user()->sendEmailVerificationNotification();
-    return back()->with('message', 'Link di verifica inviato correttamente!');
-})->middleware(['auth', 'throttle:6,1'])->name('verification.send');
