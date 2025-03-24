@@ -1,8 +1,9 @@
 <x-layout title="Email Verification">
-    <div class="bg-register pb-5 vh-100 mt-5 pt-5 auth">
-        <div class="container py-5 my-5 py-md-0 my-md-0 register">
-            <div class="row justify-content-center p-5 mt-4 mt-md-0">
-                <div class="col-md-6 bg-card text-white p-4 p-md-5">
+    <div class=" pb-5 vh-100">
+        <div class="container py-5 my-5 py-md-0 my-md-0">
+            <div class="row justify-content-center ">
+                <img src="/images/Bank_2.png" alt="">
+                <div class="col-10 bg-dark-auth text-white p-4 p-md-5">
                     <h3 class="text-center">Email Verification</h3>
                     <p class="text-center text-white-50">Thank you for signing up! Please verify your email address to complete your registration.</p>
                     <ul>
@@ -16,12 +17,6 @@
 
                     <form method="POST" action="{{ route('verification.send') }}">
                         @csrf
-                        @if (session('status'))
-                        <div class="alert alert-success alert-dismissible fade show mt-4" role="alert">
-                            {{ session('status') }}
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                        </div>
-                        @endif
                         @if ($errors->any())
                         <div class="alert alert-danger">
                             <ul>
@@ -31,10 +26,15 @@
                             </ul>
                         </div>
                         @endif
-                        <div class="mb-3">
-                            <input type="email" name="email" class="form-control" placeholder="Email">
+                        @if (session('message'))
+                        <div class="alert alert-success">
+                            {{ session('message') }}
                         </div>
-                        <button type="submit" class="btn btn-light w-100 mt-3">Send Email</button>
+                        @endif
+                        <div class="mb-3">
+                            <input type="email" name="email" class="form-control-dark text-bg-dark form-control" placeholder="Email">
+                        </div>
+                        <button type="submit" class="btn btn-danger w-100 mt-3">Send Email</button>
                     </form>
                 </div>
             </div>

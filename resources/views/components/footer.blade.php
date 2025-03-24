@@ -1,4 +1,4 @@
-<div class="container-fluid bg-dark-custom mb-0 pb-0">
+<div class="container-fluid  mb-0 pb-0">
     <footer class="d-flex flex-wrap justify-content-center align-items-center py-3">
         <div class="col-md-8 d-flex align-items-center text-start">
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">

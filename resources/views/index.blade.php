@@ -176,7 +176,7 @@
                             <div class="col-md-2 col-lg-2 col-3">Prize Pool</div>
                             <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">Entry</div>
                             <div class="col-md-2 col-lg-2 col-3">Time Left</div>
-                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Rewards</div>
+                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">🏆 Rewards</div>
                         </div>
 
                         <!-- Riga 1: Eat Bullets -->
@@ -186,7 +186,7 @@
                             <div class="col-md-2 col-lg-2 col-3">1000</div>
                             <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
                             <div class="col-md-2 col-lg-2 col-3">00h:15m</div>
-                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block"><span class="reward">🏆 0.0055 ETH</span></div>
                         </div>
 
                         <!-- Riga 2: Evillious Energy -->
@@ -196,7 +196,7 @@
                             <div class="col-md-2 col-lg-2 col-3">1000</div>
                             <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
                             <div class="col-md-2 col-lg-2 col-3">00h:15m</div>
-                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block"><span class="reward">🏆 0.0155 ETH</span></div>
                         </div>
 
                         <!-- Riga 3: Monstrous Michel -->
@@ -206,7 +206,7 @@
                             <div class="col-md-2 col-lg-2 col-3">1000</div>
                             <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
                             <div class="col-md-2 col-lg-2 col-3">23h:15m</div>
-                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block"><span class="reward">🏆 0.0025 ETH</span></div>
                         </div>
 
                         <!-- Riga 4: Duke of Doom -->
@@ -216,7 +216,7 @@
                             <div class="col-md-2 col-lg-2 col-3">1000</div>
                             <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
                             <div class="col-md-2 col-lg-2 col-3">00h:15m</div>
-                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block"><span class="reward">🏆 0.0155 ETH</span></div>
                         </div>
 
                         <!-- Riga 5: Gabriel Groomer -->
@@ -226,7 +226,7 @@
                             <div class="col-md-2 col-lg-2 col-3">1000</div>
                             <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
                             <div class="col-md-2 col-lg-2 col-3">00h:15m</div>
-                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block"><span class="reward">🏆 0.0011 ETH</span></div>
                         </div>
 
                         <!-- Riga 6: Annihilator -->
@@ -236,7 +236,7 @@
                             <div class="col-md-2 col-lg-2 col-3">1000</div>
                             <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
                             <div class="col-md-2 col-lg-2 col-3">00h:15m</div>
-                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block"><span class="reward">🏆 0.0055 ETH</span></div>
                         </div>
 
                         <!-- Riga 7: Veteran of Death -->
@@ -246,7 +246,7 @@
                             <div class="col-md-2 col-lg-2 col-3">1000</div>
                             <div class="col-md-1 col-lg-1 d-none d-md-block d-lg-block">500</div>
                             <div class="col-md-2 col-lg-2 col-3">00h:15m</div>
-                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block">Challenge Experience</div>
+                            <div class="col-md-2 col-lg-2 d-none d-md-block d-lg-block"><span class="reward">🏆 0.0250 ETH</span></div>
                         </div>
                     </div>
                 </div>
