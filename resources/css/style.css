@@ -3,6 +3,7 @@ body {
     font-family: "Poppins";
 }
 
+
 /*Typography */
 a {
     text-decoration: none;
@@ -38,7 +39,8 @@ a {
 
 /*Navbar*/
 .form-control-dark {
-    border-color: #080808
+    background-color: #080808;
+    border-color: rgba(173, 181, 219, 0.178)
 }
 
 ::placeholder {
@@ -218,9 +220,27 @@ a.dropdown-item:hover {
 }
 
 @media (max-width: 767px) {
+
     .grid-header,
     .grid-row {
         font-size: 0.9rem;
         padding: 10px;
     }
+}
+
+
+/*Chat */
+.chat-container {
+    background-color: #101010;
+    padding: 10px;
+}
+
+.messages {
+    overflow-y: scroll;
+    padding: 10px;
+    height: 700px;
+}
+
+.delete a {
+    cursor: pointer;
 }
