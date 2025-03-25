@@ -23,4 +23,3 @@ Route::get('/email/verify', function (Request $request) {
 Route::get('/game/index', [GameController::class, 'index'])->name('game.index');
 Route::get('/game/create', [GameController::class, 'create'])->name('game.create');
 Route::post('/game/store', [GameController::class, 'store'])->name('game.store');
-

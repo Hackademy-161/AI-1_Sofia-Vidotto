@@ -25,7 +25,6 @@ class PublicController extends Controller implements HasMiddleware
             ],
         ]);
 
-        dd($result->choices[0]->message->content);
 
         return view('index');
     }
