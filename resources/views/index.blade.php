@@ -11,7 +11,7 @@
                     <div class="row">
                         <div class="col-12 py-3 d-flex flex-row align-items-center justify-content-between">
                             <h2 class="text-white">Upcoming Tournaments</h2>
-                            <a href="" class="text-red">More</a>
+                            <a href="{{route('game.index')}}" class="text-red">More</a>
                         </div>
                         <div class="col-md-4 my-3">
                             <div class="game-card">

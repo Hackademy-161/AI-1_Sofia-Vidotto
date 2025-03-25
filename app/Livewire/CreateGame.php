@@ -7,10 +7,10 @@ use Livewire\Component;
 use Livewire\Attributes\Validate;
 use Livewire\WithFileUploads;
 
-class CreateGame extends Component 
+class CreateGame extends Component
 {
     use WithFileUploads;
-    
+
     #[Validate('required', message: 'Name is required')]
     public $name;
     #[Validate('required', message: 'Date is required')]
@@ -35,7 +35,7 @@ class CreateGame extends Component
             'prize' => $this->prize,
             'team' => $this->team,
             'sponsor' => $this->sponsor,
-            'img' => $this->img ? $this->img->store('images' , 'public') : null,
+            'img' => $this->img ? $this->img->store('images', 'public') : null,
         ]);
 
         $this->reset();

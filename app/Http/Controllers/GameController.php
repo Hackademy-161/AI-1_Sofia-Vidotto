@@ -12,7 +12,8 @@ class GameController extends Controller
      */
     public function index()
     {
-        //
+        $games = Game::orderBy('created_at', 'desc')->paginate(9);
+        return view('game.index', compact('games'));
     }
 
     /**

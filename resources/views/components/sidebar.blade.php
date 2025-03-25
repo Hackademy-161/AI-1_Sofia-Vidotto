@@ -6,7 +6,7 @@
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <a href="" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <a href="{{route('index')}}" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                 <img src="/images/logo.png" alt="Logo" class="py-5">
             </a>
             <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
@@ -52,7 +52,7 @@
 
     <!-- Sidebar fissa per Desktop -->
     <div class="sidebar-fixed d-none d-md-block bg-dark-custom text-white p-3">
-        <a href="" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none ps-2">
+        <a href="{{route('index')}}" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none ps-2">
             <img src="/images/logo.png" alt="Logo" class="py-5">
         </a>
         <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
