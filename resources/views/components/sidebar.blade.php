@@ -11,7 +11,7 @@
             </a>
             <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
                 <li class="nav-item my-4">
-                    <a href="" class="nav-link"><img src="/images/Profile.png" alt=""></a>
+                    <a href="{{route('game.create')}}" class="nav-link"><i class="bi bi-plus-circle fs-4"></i></a>
                 </li>
                 <li class="nav-item my-4">
                     <a href="" class="nav-link"><img src="/images/Chat.png" alt=""></a>
@@ -57,7 +57,7 @@
         </a>
         <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
             <li class="nav-item my-4">
-                <a href="" class="nav-link"><img src="/images/Profile.png" alt=""></a>
+                <a href="{{route('game.create')}}" class="nav-link"><i class="bi bi-plus-circle fs-4"></i></a>
             </li>
             <li class="nav-item my-4">
                 <a href="" class="nav-link"><img src="/images/Chat.png" alt=""></a>

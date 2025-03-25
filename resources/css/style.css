@@ -3,6 +3,22 @@ body {
     font-family: "Poppins";
 }
 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #1A1A1A;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #1A1A1A;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #000;
+}
 
 /*Typography */
 a {
@@ -10,6 +26,10 @@ a {
 }
 
 .text-red {
+    color: #FE1F27
+}
+
+.text-red a {
     color: #FE1F27
 }
 
@@ -53,6 +73,15 @@ a {
     background-repeat: no-repeat;
     background-position: left;
 }
+
+.bg-create {
+    background-image: url(/public/images/Money\ Sack_3\ 3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
 
 /*Navbar*/
 .form-control-dark {
