@@ -30,31 +30,21 @@ Welcome to **Nairobi**, a sleek, Netflix-inspired platform for gamers where you 
 
 ---
 
-## 📥 Installation & Setup
+## 👅 Installation & Setup
 
 Follow these steps to set up and run the project locally:
 
 ### 1️⃣ Clone the Repository  
 ```bash
 git clone https://github.com/MaDGiiRL/nairobi
-cd Netflix-Gaming-Tournaments
-
-
-## 📥 Installation & Setup
-
-Follow these steps to set up and run the project locally:
-
-### 1️⃣ Clone the Repository  
-```bash
-git clone https://github.com/MaDGiiRL/Tech-Blog.git
-cd Tech-Blog
-```  
+cd nairobi
+```
 
 ### 2️⃣ Install Dependencies  
 ```bash
 composer install
 npm install
-```  
+```
 
 ### 3️⃣ Configure Environment  
 Rename `.env.example` to `.env` and set up your database credentials:  
@@ -65,22 +55,23 @@ DB_PORT=3306
 DB_DATABASE=your_database_name
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
-```  
+```
 
-Set your ** OpenAI API ** key in `.env`:
+Set your **OpenAI API** key in `.env`:  
 ```env
-OPENAI_API_KEY=sk-
-```  
+OPENAI_API_KEY=your_openai_api_key
+OPENAI_ORGANIZATION=your_openai_organization_id
+```
 
 ### 4️⃣ Run Migrations & Seed Database  
 ```bash
 php artisan migrate --seed
-```  
+```
 
 ### 5️⃣ Start the Development Server  
 ```bash
 php artisan serve
-```  
+```
 
 Now open **http://127.0.0.1:8000/** in your browser to explore the site.
 
@@ -89,3 +80,4 @@ Now open **http://127.0.0.1:8000/** in your browser to explore the site.
 ## 💡 Contributions & Improvements
 
 Have suggestions? Want to contribute? Feel free to **submit a pull request** or open an **issue**! 🚀
+
