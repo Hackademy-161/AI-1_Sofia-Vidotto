@@ -2,7 +2,6 @@
 
     <x-header />
 
-
     <div class="container-fluid">
         <div>
             <div class="row m-5">

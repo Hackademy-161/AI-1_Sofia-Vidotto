@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use OpenAI\Laravel\Facades\OpenAI;
 use Illuminate\Routing\Controllers\HasMiddleware;
 
 class PublicController extends Controller implements HasMiddleware
@@ -17,6 +18,15 @@ class PublicController extends Controller implements HasMiddleware
 
     public function index()
     {
+        $result = OpenAI::chat()->create([
+            'model' => 'gpt-4o-mini',
+            'messages' => [
+                ['role' => 'user', 'content' => 'I love frontend'],
+            ],
+        ]);
+
+        dd($result->choices[0]->message->content);
+
         return view('index');
     }
 

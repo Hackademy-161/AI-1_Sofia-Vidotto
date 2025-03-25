@@ -13,5 +13,11 @@ class Game extends Model
         'team',
         'sponsor',
         'img',
+        'user_id'
     ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }
