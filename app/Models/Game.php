@@ -20,4 +20,9 @@ class Game extends Model
     {
         return $this->belongsTo(User::class);
     }
+
+    public function scopeUpcoming($query)
+    {
+        return $query->where('date', '>=', now())->orderBy('date', 'asc');
+    }
 }

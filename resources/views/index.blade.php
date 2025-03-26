@@ -1,5 +1,5 @@
 <x-layout title="NAIROBI">
-
+    <livewire:assistant />
     <x-header />
 
     <div class="container-fluid">
