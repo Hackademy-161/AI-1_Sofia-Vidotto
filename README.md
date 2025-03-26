@@ -46,7 +46,12 @@ composer install
 npm install
 ```
 
-### 3️⃣ Configure Environment  
+### 3️⃣ Generate Key 
+```bash
+php artisan key:generate
+```
+
+### 4️⃣ Configure Environment  
 Rename `.env.example` to `.env` and set up your database credentials:  
 ```env
 DB_CONNECTION=mysql
@@ -63,12 +68,12 @@ OPENAI_API_KEY=your_openai_api_key
 OPENAI_ORGANIZATION=your_openai_organization_id
 ```
 
-### 4️⃣ Run Migrations & Seed Database  
+### 5️⃣ Run Migrations & Seed Database  
 ```bash
 php artisan migrate --seed
 ```
 
-### 5️⃣ Start the Development Server  
+### 6️⃣ Start the Development Server  
 ```bash
 php artisan serve
 ```
